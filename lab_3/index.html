@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <form class="form" id="form" name="form">
+		<input type="text" class="form-field" name="name" placeholder="Введите ваше имя">
+		<input type="text" class="form-field" name="phone" placeholder="Введите ваш телефон">
+		<button class="form-button"><span class="text-button">Отправить заявку</span></button>
+	</form>
+
+
+
+	<!-- Ниже приведён код всплывающего окна, которое скрыто по умолчанию -->
+	<footer>
+		<div class="overlay js-overlay-thank-you">
+			<div class="popup js-thank-you">
+				<h2>Спасибо за заявку</h2>
+				<div class="close-popup js-close-thank-you"></div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="/js/main.js"></script>
+	<script src="jquery.maskedinput.js"></script>
+    
+</body>
+</html>
